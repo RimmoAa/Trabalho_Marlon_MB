@@ -1,0 +1,204 @@
+
+    
+    body {
+        transition: background-color 0.5s, color 0.5s;
+        background-color: white;
+        color: black;   
+    }
+    img{
+        object-fit: cover;
+        height: 500px;
+        width: 500px;
+ 
+    }
+.dark {
+    background-color: black;
+    color: white;
+    .figura1{
+        background-color: rgb(196, 196, 196);
+    }
+    .figura2{
+        background-color: rgb(196, 196, 196);
+    }
+    .figura3{
+        background-color: rgb(196, 196, 196);
+    }
+            }
+            .btn{
+
+                
+
+                padding: 25px 25px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 25px;
+                background-color: rgb(140, 0, 0);
+                color: white;
+                box-shadow: 0 8px 8px rgba(0,0,0,0,2);
+display: flex;
+align-items: center; }
+
+header{
+    height: 50px;
+    background: rgba(50,50,50, 0.8);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header-light{
+    background: rgb(255,255,255, 0.8);
+}
+.link-light{
+    color: rgb(50,50,50);
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link{
+    color: white;
+    transition: all 0.3s;
+}
+.link:hover{
+    transform: scale(1.2);
+}
+
+main{
+/* conteúdo geral  */
+/*   topo e fundo | esquerda e direita */
+    padding: 30px 0;
+}
+section{
+    padding-bottom: 20px;
+}
+.galeria-container{
+/* container dos cards */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+/* apenas o card */
+    width: 350px;
+    background: rgb(213, 37, 37);
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    
+}
+.card p, .card h2{
+    color: white;
+    padding: 0 10px;
+}
+.card p{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+.card img{
+    width: 350px;
+}
+
+h1 {
+    padding: 20px 30px 50px 35%;
+    margin:auto;
+}
+#carousel{
+    width: 350px;
+    height: 400px;
+}
+.carousel-container{
+    display: flex;
+    justify-content: center;
+}
+
+.detalhes{
+    
+max-width: 500px;
+    transform: translatey(30%);
+    font-size: 30px;
+}
+.figura1{
+    transform: translatey(-20%);
+    transform: translatex(5%);
+
+    padding: 12px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0 8px 8px rgba(0,0,0,0,2);
+}
+.figura2{
+    transform: translatey(-20%);
+    transform: translatex(6%);
+
+    padding: 12px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0 8px 8px rgba(0,0,0,0,2);
+}
+
+.figura3{
+    transform: translatey(-20%);
+    transform: translatex(2%);
+
+
+    padding: 12px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0 8px 8px rgba(0,0,0,0,2);
+}
+
+#carousel1{
+    width: 350px;
+    height: 400px;
+}
+.carousel-container1{
+    display: flex;
+    justify-content: center;
+}
+
+#carousel2{
+    width: 350px;
+    height: 400px;
+}
+.carousel-container1{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 500px){
+    .menu-topo{
+        display: none;
+    }
+    .menu-bar{
+        width: 50px;
+        height: 50px;
+    }
+    .menu-container{
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        background: rgb(50,50,50);
+        transition: all 0.3s;
+        height: 100%;
+        flex-direction: column;
+    }
+}

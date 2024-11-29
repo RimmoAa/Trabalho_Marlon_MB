@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <header >
+        <nav class="menu-topo">
+            <a href="index.html" class="link">Home</a>
+            <a href="galeria.html" class="link">Galeria</a>
+            <a href="contato.html" class="link">Contate-nos</a>
+        </nav>
+       
+    </header>
+    <main onclick="diminui()">
+        <h1> Apresentação dos Envolvidos do "Site" de Demonstração:</h1>    
+ <button class="btn" onclick="document.body.classList.toggle('dark')">
+        <span class="icon icon-sun"></span>
+        <span class="icon icon-moon"></span>
+Mudar tema
+    </button>
+
+  
+         <section class="galeria-container">
+            <div class="card" onmouseover="mostraDetalhes(0)" onmouseleave="escondeDetalhes(0)">
+                <img src="Pessoa1.png" alt="">
+                <h2>Jotaro Kujo</h2>
+                <p class="detalhes">18 Anos, Ensino Médio Completo, Realizando Faculdade de Biologia. Já Participou de atividades em auxílio com ONGS</p>
+            </div>
+            <div class="card" onmouseover="mostraDetalhes(1)" onmouseleave="escondeDetalhes(1)">
+                <img src="Pessoa2.jpg" alt="">
+                <h2>Joseph Joestar</h2>
+                <p class="detalhes">68 Anos, Curso Superior Completo, Atualmente trabalha numa ONG que ajuda a proteger a vida selvagem marinha.</p>
+            </div>
+            <div class="card" onmouseover="mostraDetalhes(2)" onmouseleave="escondeDetalhes(2)">
+                <img src="Pessoa3.jpg" alt="">
+                <h2>Jean Pierre Polnareff</h2>
+                <p class="detalhes">22 Anos, Ensino Médio Completo, Realizando Faculdade de Gastronomia. Já Fez Estágio em Restaurantes de Sua Cidade.</p>
+            </div>
+         </section>
+        
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
